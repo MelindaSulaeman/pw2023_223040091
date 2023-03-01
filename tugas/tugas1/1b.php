@@ -12,10 +12,10 @@ $npm = 91;
 <body>
     <p>
         Aku adalah angka <b><?php echo $npm ?></b><br>
-        Jika aku dikali 5, maka aku sekarang menjadi <b><?php echo $npm * 5?></b><br>
-        Jika aku dibagi 2, maka aku sekarang menjadi <b><?php echo 455 / 2 ?></b><br>
-        Jika aku ditambah 75, maka aku sekarang menjadi <b><?php echo 227.5 + 75 ?></b><br>
-        Jika aku dikurang 20, maka aku sekarang menjadi <b><?php echo 302.5 - 20 ?></b><br>
+        Jika aku dikali 5, maka aku sekarang menjadi <b><?php echo $npm = $npm * 5?></b><br>
+        Jika aku dibagi 2, maka aku sekarang menjadi <b><?php echo $npm /= 2 ?></b><br>
+        Jika aku ditambah 75, maka aku sekarang menjadi <b><?php echo $npm += 75 ?></b><br>
+        Jika aku dikurang 20, maka aku sekarang menjadi <b><?php echo $npm -= 20 ?></b><br>
     </p>
 </body>
 </html>
