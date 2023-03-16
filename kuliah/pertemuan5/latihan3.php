@@ -4,7 +4,7 @@ $makanan = ['🍩', '🫔', '🍝', '🍢', '🍔'];
 $mahasiswa =['Melinda', 'Nita', 'Maria', 'Eka', 'Nova'];
 ?>
 <!-- Array multi dimensi / array di dalam array -->
-['Maria', '🍔', '🐵']
+<!-- ['Maria', '🍔', '🐵'] -->
 
 <!DOCTYPE html>
 <html lang="en">
