@@ -10,8 +10,8 @@
  $a--; // untuk loncatan (incremen/decrement)
  }
  echo 'Selesai <br>';
-
- echo "<hr>"
+ 
+ echo "<hr>";
  echo 'Mulai <br>'; 
 for ($a = "1"; $a <= 10; $a++) {
     echo "Hello world $a kali <br>";
